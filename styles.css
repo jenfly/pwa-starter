@@ -138,6 +138,49 @@ main {
   margin-top: 2rem;
 }
 
-.empty.hidden {
+.hidden {
   display: none;
+}
+
+.auth-section {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.auth-section h2 {
+  font-size: 1.05rem;
+  margin: 0 0 0.35rem;
+}
+
+.auth-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.btn {
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.6rem;
+  border: none;
+  background: var(--accent);
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--accent-hover);
+}
+
+.btn-secondary {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.btn-secondary:hover {
+  background: var(--border);
 }
